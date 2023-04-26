@@ -1,0 +1,830 @@
+body	{
+		font-family: arial, helvetica, sans-serif;
+}
+
+
+
+header, section, footer {
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		
+
+
+}
+
+header	{
+		height: 150px;
+		background: url(imagenes/azul2.jpg) no-repeat;
+	
+		background-position: center center;
+		background-size: cover;
+}
+
+#marca 	{
+
+		height: 80px;
+		width: 300px;
+		float: left;
+		margin: 10px;
+		margin-left: 40px;
+		color: #073D27;
+		background-color: pink;
+		border-radius: 10px 50px;
+
+}
+
+h1 		{
+		font-weight: bold;
+		padding-top: 20px;
+		font-size: 30px;
+		margin-left: 50px;
+}
+
+
+#botonera	ul li a:hover 	{
+		color: hotpink;
+		transition: 0.5s;
+
+}
+
+#botonera 	{
+		height: 50px;
+		width: 600px;
+		float: left;
+		margin: 10px;
+		margin-top: -10px;
+		margin-left: 40px;
+
+}
+
+ul 			{
+		list-style: none;
+}
+
+li  		{
+		float: left;
+
+
+}
+
+#nm {
+	display: ;
+	margin-top: -58px;
+	margin-left: 420px;
+}
+
+a 			{
+		margin-top: 10px;
+		text-decoration: none;
+		display: block;
+		padding: 10px 20px;
+		color: pink;
+		border: 2px pink solid;
+		border-radius: 10px 50px;
+
+
+
+}
+
+
+#section1 {
+		height: 500px;
+		background: url(imagenes/azul2.jpg) no-repeat;
+		margin-top: -400px;
+		background-position: center center;
+		background-size: cover;
+
+}
+
+#caja_a {
+		width: 480px;
+		height: 166px;
+		font-size: 20px;
+		background-image: url(imagenes/inter.jpg);
+		background-position: center center;
+		background-size: cover;
+
+}
+
+#collapse1{
+		margin-left: 320px; 
+		margin-top: 30px;
+}
+#card1{
+		width: 480px;
+		height: 166px;
+		margin-top: -109px;
+
+}
+
+
+
+#caja_b {
+		width: 480px;
+		height: 166px;
+		background-image: url(imagenes/posventa.jpg);
+		background-position: center center;
+		background-size: cover;
+		float: right;
+
+}
+
+#collapse2 {
+			margin-left: -1140px; 
+			margin-top: -720px;
+}
+
+#card2 {
+		font-size: 20px;
+		width: 480px;
+		height: 166px;
+		margin-top: -470px;
+}
+				
+#caja_c {
+		width: 480px;
+		height: 166px;
+		background-image: url(imagenes/verde3.jpg);
+		background-position: center center;
+		background-size: cover;
+		clear: right;
+		padding-top: 30px;
+
+}
+
+#collapse3 {
+		margin-left: 330px; 
+		margin-top: -790px;
+
+}
+
+#card3 {
+		font-size: 20px;
+		width: 480px;
+		height: 166px;
+		margin-top: -809px;
+}
+
+
+
+#section2 {
+		margin-top: -15px;
+		height: 500px;
+		height: 600px;
+			background: url(imagenes/azul2.jpg) no-repeat;
+	
+		background-position: center center;
+		background-size: cover;
+}
+
+#caja_d	{
+		width: 820px;
+		height: 150px;
+		margin: auto;
+		background: url(imagenes/joyas7.jpg) no-repeat bottom;
+
+
+
+}
+
+#box_prod	{
+		text-decoration: none;
+		
+		padding: 10px 20px;
+		color: pink;
+		border: none; 
+		border-radius: 0px 0px;
+		text-align: center;
+		margin-left: 220px;
+		font-size: 58px;
+		padding-top: 10px;
+		transition: 0.5s;
+
+}
+
+#box_prod:hover {
+			color: hotpink;
+
+}
+
+
+
+h3		{
+		padding-top: 25px;
+		text-align: center;
+		color: hotpink;
+		font-size: 28px;
+		font-weight: bold;
+		
+}
+
+.caja_sec2{
+			height: 320px;
+			width: 300px;
+			float: left;
+			margin: 10px;
+			background: url(imagenes/joyas1.jpg);
+				border-radius: 10px 10px;
+
+}
+
+.caja_sec2 li 	{
+				color: #9E19A5;
+				font-size: 25px;
+				text-shadow: 15px 3px 15px;
+				padding: 10px 15px;
+				justify-items: left;
+				margin-left: 80px;
+
+
+				
+}
+
+
+
+#section3 {
+		height: 600px;
+			background: url(imagenes/azul2.jpg) no-repeat;
+	
+		background-position: center center;
+		background-size: cover;
+}
+
+#caja_e {
+		
+		width: 820px;
+		height: 150px;
+		
+		margin: auto;
+
+
+}
+
+#caja_f	{
+		
+		width: 500px;
+		height: 100px;
+		
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		margin-bottom: 50px;
+
+
+}
+
+#caja_g {
+		
+		width: 820px;
+		height: 150px;
+		
+		margin: auto;
+}
+
+
+#section4 {
+		height: 600px;
+			background: url(imagenes/azul2.jpg) no-repeat;
+	
+		background-position: center center;
+		background-size: cover;
+
+
+}
+
+.conteiner-fluid {
+		height: 600px;
+		
+}
+
+#mision1 {
+	padding: 0px;
+	margin: 0px;
+	height: 100px;
+
+
+
+}
+
+#mis1{
+
+	text-align: center;
+	padding-top: 33px;
+}
+
+.btn-success:hover {
+	background-color: lightgreen;
+	color: black;
+
+}
+
+.btn-danger:hover{
+	background-color: pink;
+	color: black;
+}
+
+#mis2{
+
+	text-align: center;
+	padding-top: 33px;
+
+}
+
+
+#mision2 {
+	padding: 0px;
+	margin: 0px;
+	height: 500px;
+
+}
+
+#mis3	{
+		height: 480px;
+		background-color: lightgreen;
+		border-radius: 10px 10px;
+}
+	
+#mis4{
+
+		background-color: pink;
+		background: url(imagenes/ma3.jpg) no-repeat;
+			border-radius: 10px 10px;
+
+}
+
+#mambiente {
+		text-decoration: none;
+		padding: 35px 20px;
+		color: pink;
+		border: none; 
+		border-radius: 0px 0px;
+		transition: 0.5s;
+
+}
+
+#mambiente:hover {
+			color: hotpink;
+
+}
+
+
+footer {
+		height: 80px;
+		background: url(imagenes/azul2.jpg) no-repeat;
+	
+		background-position: center center;
+		background-size: cover;
+}
+
+
+#caja_h {
+	
+		height: 60px;
+		width: 400px;
+		float: left;
+		margin: 10px;
+		background: webrit-linear-gradient(left, #ff0000 20% #00f000);
+}
+
+
+
+#contact {
+		margin-top: 10px;
+		color: #e723dc;
+		text-decoration: none;
+		display: block;
+		padding: 10px 20px;
+		color: pink;
+		border: 2px pink solid;
+		border-radius: 10px 50px;
+		margin-bottom: 20px;
+
+
+}
+
+
+#caja_i	{
+
+		height: 60px;
+		width: 400px;
+		float: right;
+		margin: 10px;
+		
+
+		}
+
+h4	{
+	text-align: center;
+		color: pink;
+		font-size: 58px;
+		padding-top: 25px;
+}
+
+#sucu{
+	color: pink;
+	font-size: 40px;
+	padding-top: 25px;
+
+
+	text-decoration: none;
+		
+		padding: 10px 20px;
+		color: pink;
+		border: black; 
+		border-radius: 1px 1px;
+		text-align: center;
+		transition: 0.5s;
+
+
+}
+
+
+.caja_h5 {
+	font-size: 35px;
+	text-align: center;
+		color: pink;
+		padding-top: 25px;
+
+}
+
+p {
+		font-size: 20px;
+		text-decoration: none;
+		margin-top: 400px;
+		margin-right: 330px;
+		margin-left: 330px;
+		padding-top: 25px;
+		text-align: center;
+		color: ##660B61;
+		text-shadow: 0px 0px 5px black; 
+	
+}
+
+
+@media all and (min-width:600px) and (max-width: 1023px) {
+
+
+header, section, footer {
+		width: 580px;
+}
+
+
+#marca 	{
+
+		height: 80px;
+		width: 300px;
+		float: left;
+
+}
+
+
+
+
+
+#botonera 	{
+		width: 500px;
+		float: left;			
+}
+
+ul 			{
+		margin-left: -50px;
+		list-style: none;
+}
+
+li  		{
+		float: left;
+
+
+}
+
+#nm {
+	
+	margin-top: -58px;
+	margin-left: 420px;
+}
+
+#caja_a {
+		width: 50%;
+	
+}
+
+#collapse1{
+		margin-left: 50px; 
+}
+
+#card1{
+		width: 290px;
+		
+}
+
+
+#caja_b {
+		width: 50%;
+
+}
+
+#collapse2 {
+			margin-left: -950px; 
+			
+}
+
+#card2 {
+		width: 290px;
+		
+}
+				
+#caja_c {
+		width: 50%;
+
+}
+
+#collapse3 {
+		margin-left: 50px; 
+	
+}
+
+#card3 {
+		width: 290px;
+		font-size: 15px;
+		
+}
+
+
+
+
+#caja_d	{
+		width: 380px;
+		
+}
+
+#box_prod	{
+		
+			margin-left: 60px;
+		
+}
+
+
+
+h3		{
+		padding-top: 25px;
+		text-align: center;
+		color: hotpink;
+		font-size: 28px;
+		font-weight: bold;
+		
+}
+
+.caja_sec2{
+			width: 170px;
+
+}
+
+.caja_sec2 li 	{
+				font-size: 18px;
+				padding: 8px 0px;
+				margin-left: 40px;
+				color: #9E19A5;
+}
+
+														
+
+#caja_e {
+		width: 520px;
+}
+
+#caja_f	{
+		width: 300px;
+	
+}
+
+#caja_g {
+		
+		width: 520px;
+		
+}
+
+														
+#mis4{
+		background-size: 100% 95%;
+	
+}
+
+#mambiente {
+		font-size: 23px;
+}
+
+														
+
+#caja_h {
+
+		width: 250px;
+}
+
+
+#contact {
+		margin-top: 5px;
+		padding: 0px 30px;
+		margin-left: 0px;
+	
+}
+
+
+#caja_i	{
+
+		width: 250px;
+}
+
+
+
+}
+
+/**fin media 600a1023 **/
+
+@media all and (max-width: 599px) {
+
+
+
+
+header, section, footer {
+		width: 100%;
+
+}
+
+a 			{
+		
+		padding: 10px 10px;
+		
+}
+
+
+#nm {
+	
+	margin-left: 360px;
+}
+
+
+ul 			{
+	margin-left: -70px;
+		
+}
+
+
+#caja_a {
+		width: 50%;
+		
+}
+
+#collapse1{
+
+		margin-left: 20px; 
+	
+}
+#card1{
+		width: 245px;
+		font-size: 15px;
+}
+
+
+
+#caja_b {
+		width: 50%;
+	
+}
+
+#collapse2 {
+			margin-left: -940px; 
+	
+}
+
+#card2 {
+		font-size: 20px;
+		width: 245px;
+		
+}
+				
+#caja_c {
+		width: 50%;
+
+}
+
+#collapse3 {
+		margin-left: 0px; 
+		
+}
+
+#card3 {
+		font-size: 13px;
+		width: 245px;
+	
+}
+
+																
+#caja_d	{
+		width: 70%;
+		
+}
+
+#box_prod	{	
+		margin-left: 60px;
+
+}
+
+
+h3		{
+		font-size: 20px;
+		
+}
+
+.caja_sec2{
+			width: 140px;
+			
+}
+
+.caja_sec2 li 	{
+				
+				font-size: 15px;
+				padding: 10px 0px;
+				margin-left: 40px;
+				
+}
+																	
+
+#caja_e {
+		width: 80%;
+		
+}
+
+#caja_f	{
+		width: 60%;
+
+}
+
+#caja_g {
+		width: 80%;
+	
+}
+
+
+#section4 {
+		height: 800px;
+	
+}
+
+
+
+#mis3	{
+		height: 330px;
+		
+}
+	
+#mis4{
+			height: 370px;
+			background-size: 100% 100%;
+}
+
+
+footer {
+		height: 150px;
+}
+
+
+#caja_h {
+		
+		width: 250px;
+		margin-left: 150px;
+}
+
+
+
+#caja_i	{
+		
+		width: 350px;
+		
+		margin-top: 0px;
+		
+}																	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

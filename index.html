@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lisa Joyas</title>
+	<!---css booststrap--->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<!---css propio--->
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="unidad7.js"></script>
+</head>
+<body>
+	
+<header>
+	<div id="marca">
+		<h1>LISA JOYAS</h1>
+	</div>
+
+	<nav id="botonera">
+		<ul>
+			<li><a href="#section1">Nosotros</a></li>
+			<li><a href="#section2">Productos</a></li>
+			<li><a href="#section3">Trabaja con nosotros</a></li>
+			<li id="nm"><a href="#section4">Misiones</a></li>
+		</ul>
+	</nav>
+</header>
+<section id="section1">
+	<div id="caja_a">
+		<!---colapse1--->
+						<p>
+				  <button id="collapse1" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+				    Proveedores
+				  </button>
+				</p>
+				<div>
+				  <div class="collapse collapse-horizontal" id="collapseWidthExample">
+				    <div id="card1" class="card card-body">
+				      La variedad y clase mas original, de la mano de los mejores artesanos independientes de Italia y la India.
+				    </div>
+				  </div>
+				</div>
+		<!---fin colapse1--->
+	</div>
+	<div id="caja_b">
+	<!---colapse2--->
+				<p>
+			  <button id="collapse2" class="btn btn-primary" id="btnsecundary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1">
+			   	Servicio postventa
+			  </button>
+			</p>
+			<div style=>
+			  <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+			    <div id="card2" class="card card-body">
+			      El mejor servicio postventa con garantia a 90 dias y envio a domicilio sin costo para clientes mayoristas.
+			    </div>
+			  </div>
+			</div>
+	<!---fin colapse2---></div>
+	<div id="caja_c">
+		<!---colapse3--->
+				<p>
+			  <button id="collapse3" class="btn btn-primary" id="btnsecundary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
+			   	Compromiso natural
+			  </button>
+			</p>
+			<div style=>
+			  <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+			    <div id="card3" class="card card-body">
+			     	Te invitamos a participar activamente con una donacion a nuestra ONG sin fines de lucro para fomentar la informacion y la utilizacion de productos reciclados como los que utilizamos para nuestra paqueteria.
+			    </div>
+			  </div>
+			</div>
+	<!---fin colapse3--->
+	</div>
+
+<section id="section2">
+	<nav id="caja_d">
+		<ul>
+			<li>
+				<a href="#section2" id="box_prod" onclick="mostrarPRF()">Productos</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="caja_sec2">
+		<h3><u>Acero blanco</u></h3>
+		<u><li>Aros</li></u>
+		<u><li>Colgantes</li></u>
+		<u><li>Pulceras</li></u>
+		<u><li>Anillos</li></u>
+		
+	</div>
+
+	<div class="caja_sec2">
+		<h3><u>Acero dorado</u></h3>
+		<u><li>Aros</li></u>
+		<u><li>Colgantes</li></u>
+		<u><li>Pulceras</li></u>
+		<u><li>Anillos</li></u>
+		
+	</div>
+	
+	<div class="caja_sec2">
+		<h3><u>Plata 925</u></h3>
+		<u><li>Aros</li></u>
+		<u><li>Colgantes</li></u>
+		<u><li>Pulceras</li></u>
+		<u><li>Anillos</li></u>
+		
+
+	</div>
+	</section>
+
+<section id="section3">
+	<div id="caja_e">
+		<script>
+		document.write ('<h4><u>Nombre:'+cliente+'</u></h4>')
+		</script>
+	</div>	
+	<div id="caja_f">
+		<script>
+			document.write ('<h4 id="sucu"><u>Sucursal:'+sucursal+'</u></h4>')
+		</script>
+		</div>		
+	<div id="caja_g">
+		<script>
+			if (tipoDeCliente >=10) {
+					document.write('<h5 class="caja_h5"><u>'+cliente+' Tu tipo de acceso es:<br>Mayorista</u></h5>')
+			}
+			if (tipoDeCliente <=10) {
+			document.write ('<h5 class="caja_h5"><u>'+cliente+' Tu tipo de acceso es:<br>Minorista</br></u></h5>')
+				}
+		</script>
+	</div>	
+
+</section>
+<section id="section4">
+	<main class="conteiner-fluid">
+		<div class="row" id="mision1">
+
+			<div class="col-sm-3 col-lg-3" id="mis1">
+				<button type="button" class="btn btn-success" class="btn_ani1">Mision1</button>
+			</div>
+
+			<div class="col-sm-8 offset-sm-1 col-lg-8" id="mis2">
+				<button type="button" class="btn btn-danger" class="btn_ani2">Mision2</button>
+			</div>
+	
+		</div>
+		<article class="row" id="mision2">
+			<div class="col-sm-3" id="mis3">
+				<h2 id="mambiente">Ayudanos a preservar el medio ambiente</h2>
+				<form action="#">
+					<div class="mb-3">
+						<select id=selector1 >
+							<option>Informacion</option>
+							<option>Donaciones</option>
+							<option>Quiero participar</option>
+					</select>
+					</div>
+					<div class="mb-3">
+						<input type="email" placeholder="Correo electronico" required class="form-control">
+					</div>
+						<div class="mb-3"><input type="number" min="18" max="99" placeholder="Edad" class="form-control">
+							<br>
+						<input type="submit">
+					</div>
+				</form>
+			</div>
+			<div class="col-sm-8 offset-sm-1 " id="mis4"></div>
+		</article>
+	</main>
+</section>
+
+
+<footer>
+	<article id="caja_h">
+		<ul
+				<li id="contact">Contacto: Lisa.pasteleria@gmail.com</li>
+			</a>
+		</ul>
+	</article>
+
+
+	<article id="caja_i">
+		<ul>
+			<li id="contact">Direccion: Leon Pinelo 2885; Cordoba</li>
+		</ul>
+	</article>
+</footer>
+<!---js proio--->
+<script src="unidad8.js"></script>
+<!---js boostrap--->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
